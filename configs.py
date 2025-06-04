@@ -5,15 +5,15 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "26954495"))
-    API_HASH = os.getenv("API_HASH", "2061c55207cfee4f106ff0dc331fe3d9")
+    API_ID = int(os.getenv("API_ID", "29507367"))
+    API_HASH = os.getenv("API_HASH", "a99c710ea3f1530e5600d27ac8f3fe84")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Moviebazaar7bot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1002368981263")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "SDMOVIEPOINTbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "7951767281"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Searching7_filebot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Moviebazaar7bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "7045947967"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Keshavraj_77")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "movie_bazaar07)
 #    GROUP_USERNAME = os.getenv("SDMOVIESPOINTEe")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
